@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="styles.css">
+<title>My Survey Form</h1></title>
+<body>
+  <h1 id=title>My Survey Form</h1>
+  <p id="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in fringilla tellus, in fringilla odio.</p>
+<form id="survey-form">
+  <label for="name-label" id="name-label">Name: 
+    <input id="name" type="text" placeholder="Provide fullname" required />
+    </label><br>
+  <label for="email-label" id="email-label">Email: 
+    <input id="email" type="email" name="email" placeholder="Provide email"required/>
+  </label><br>
+  <label for="number-label" id="number-label">Number: 
+    <input id="number" type="number" min="10" max="15" placeholder="Provide number" required />
+  </label>
+  <select id="dropdown">
+    <option >A</option>
+    <option>B</option>
+  </select><br/>
+  <label>
+    <input type="radio" value="1.0" name="group1">
+    1.0
+    <input type="radio" value="1.1" name="group1">
+    1.1
+    <input type="radio" value="1.2" name="group1">
+    1.2
+  </label><br/>
+  <label>
+    <input type="radio" value="2" name="group2">
+    2
+    <input type="radio" value="2.1" name="group2">
+   2.1
+    <input type="radio" value="2.2" name="group2">
+    2.2
+  </label><br/>
+  <label>
+    <input type="checkbox" value="1" name="choice1">
+    1
+  </label>
+  <label>
+    <input type="checkbox" value="2" name="choice2">
+    2
+  </label><br />
+  <textarea>
+
+  </textarea>
+  <button id="submit">Submit</button>
+</form>
+</body>
+</html>
